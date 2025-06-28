@@ -5,7 +5,7 @@
   "homepage": "https://muhdzaheermv.github.io/portfolio",
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
+    "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider next build && next export",
     "start": "next --openssl-legacy-provider start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d out"
