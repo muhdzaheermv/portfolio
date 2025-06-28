@@ -19,10 +19,12 @@ import {
 } from "../../styles/GlobalComponents";
 import { projects } from "../../constants/constants";
 
+// Updated categories to match tag names exactly
 const categories = [
   "All",
   "React",
-  "HTML/CSS",
+  "HTML",
+  "CSS",
   "JavaScript",
   "Tailwind CSS",
   "Figma",
@@ -32,14 +34,14 @@ const Projects = () => {
   const [activeCategory, setActiveCategory] = useState("All");
   const [showAll, setShowAll] = useState(false);
 
-  const filteredProjects = projects.filter((project) => {
-    if (activeCategory === "All") return true;
-    if (activeCategory === "HTML/CSS")
-      return project.tags.includes("HTML") && project.tags.includes("CSS");
-    return project.tags.includes(activeCategory);
-  });
+  // Simplified filtering logic
+  const filteredProjects = projects.filter((project) =>
+    activeCategory === "All" ? true : project.tags.includes(activeCategory)
+  );
 
-  const visibleProjects = showAll ? filteredProjects : filteredProjects.slice(0, 6);
+  const visibleProjects = showAll
+    ? filteredProjects
+    : filteredProjects.slice(0, 6);
 
   return (
     <Section nopadding id="projects">
@@ -47,7 +49,14 @@ const Projects = () => {
       <SectionTitle main>Projects</SectionTitle>
 
       {/* Category Buttons */}
-      <div style={{ display: "flex", flexWrap: "wrap", gap: "10px", marginBottom: "2rem" }}>
+      <div
+        style={{
+          display: "flex",
+          flexWrap: "wrap",
+          gap: "10px",
+          marginBottom: "2rem",
+        }}
+      >
         {categories.map((category) => (
           <button
             key={category}
@@ -57,7 +66,8 @@ const Projects = () => {
             }}
             style={{
               padding: "8px 16px",
-              background: activeCategory === category ? "#0f0f0f" : "#eaeaea",
+              background:
+                activeCategory === category ? "#0f0f0f" : "#eaeaea",
               color: activeCategory === category ? "#fff" : "#000",
               border: "none",
               borderRadius: "8px",
@@ -70,33 +80,35 @@ const Projects = () => {
         ))}
       </div>
 
-      {/* Responsive Grid with original spacing using media queries */}
+      {/* Project Grid */}
       <GridContainer style={{ display: "grid", gap: "2rem" }}>
-        {visibleProjects.map(({ id, image, title, description, tags, source, visit }) => (
-          <BlogCard key={id}>
-            <Img src={image} />
-            <TitleContent>
-              <HeaderThree title>{title}</HeaderThree>
-              <Hr />
-            </TitleContent>
-            <CardInfo>{description}</CardInfo>
-            <div>
-              <TitleContent>Tags</TitleContent>
-              <TagList>
-                {tags.map((tag, i) => (
-                  <Tag key={i}>{tag}</Tag>
-                ))}
-              </TagList>
-            </div>
-            <UtilityList>
-              <ExternalLinks href={visit}>Code</ExternalLinks>
-              <ExternalLinks href={source}>Visit</ExternalLinks>
-            </UtilityList>
-          </BlogCard>
-        ))}
+        {visibleProjects.map(
+          ({ id, image, title, description, tags, source, visit }) => (
+            <BlogCard key={id}>
+              <Img src={image} />
+              <TitleContent>
+                <HeaderThree title>{title}</HeaderThree>
+                <Hr />
+              </TitleContent>
+              <CardInfo>{description}</CardInfo>
+              <div>
+                <TitleContent>Tags</TitleContent>
+                <TagList>
+                  {tags.map((tag, i) => (
+                    <Tag key={i}>{tag}</Tag>
+                  ))}
+                </TagList>
+              </div>
+              <UtilityList>
+                <ExternalLinks href={visit}>Code</ExternalLinks>
+                <ExternalLinks href={source}>Visit</ExternalLinks>
+              </UtilityList>
+            </BlogCard>
+          )
+        )}
       </GridContainer>
 
-      {/* Show More / Show Less */}
+      {/* Show More / Show Less Button */}
       {filteredProjects.length > 6 && (
         <div style={{ textAlign: "center", marginTop: "2rem" }}>
           <button
