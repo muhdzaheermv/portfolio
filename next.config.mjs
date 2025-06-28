@@ -5,7 +5,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: "/portfolio",
+  basePath: "/portfolio",     // 👈 critical for GitHub Pages
   assetPrefix: "/portfolio/",
 };
 
