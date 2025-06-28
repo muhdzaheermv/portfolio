@@ -5,12 +5,12 @@
   "homepage": "https://muhdzaheermv.github.io/portfolio",
   "scripts": {
     "dev": "next dev",
-    "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider next build && next export",
+    "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider next build && next export && echo > out/.nojekyll",
     "start": "next --openssl-legacy-provider start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d out"
   },
-  
+
   "dependencies": {
     "cross-env": "^7.0.3",
     "next": "10.2.3",
