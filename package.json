@@ -2,13 +2,10 @@
   "name": "portfolio_nextjs",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://muhdzaheermv.github.io/portfolio",
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export",
-    "start": "next start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d out"
+    "start": "next --openssl-legacy-provider start"
   },
   "dependencies": {
     "cross-env": "^7.0.3",
