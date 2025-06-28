@@ -19,7 +19,7 @@ import {
 } from "../../styles/GlobalComponents";
 import { projects } from "../../constants/constants";
 
-// Updated categories to match tag names exactly
+// Updated categories to match tags and handle filtering
 const categories = [
   "All",
   "React",
@@ -34,10 +34,13 @@ const Projects = () => {
   const [activeCategory, setActiveCategory] = useState("All");
   const [showAll, setShowAll] = useState(false);
 
-  // Simplified filtering logic
-  const filteredProjects = projects.filter((project) =>
-    activeCategory === "All" ? true : project.tags.includes(activeCategory)
-  );
+  // Case-insensitive tag filtering
+  const filteredProjects = projects.filter((project) => {
+    if (activeCategory === "All") return true;
+    return project.tags.some(
+      (tag) => tag.toLowerCase() === activeCategory.toLowerCase()
+    );
+  });
 
   const visibleProjects = showAll
     ? filteredProjects
@@ -60,6 +63,7 @@ const Projects = () => {
         {categories.map((category) => (
           <button
             key={category}
+            type="button"
             onClick={() => {
               setActiveCategory(category);
               setShowAll(false);
@@ -112,6 +116,7 @@ const Projects = () => {
       {filteredProjects.length > 6 && (
         <div style={{ textAlign: "center", marginTop: "2rem" }}>
           <button
+            type="button"
             onClick={() => setShowAll((prev) => !prev)}
             style={{
               padding: "10px 20px",
