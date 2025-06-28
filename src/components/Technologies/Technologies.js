@@ -1,7 +1,26 @@
 import React from "react";
-import { DiReact, DiZend, DiDatabase, DiNodejs } from "react-icons/di";
-import { SiTailwindcss } from "react-icons/si";
-import { FaNodeJs, FaGithub } from "react-icons/fa";
+import {
+  DiPython,
+  DiJavascript1,
+  DiReact,
+  DiHtml5,
+  DiNodejs,
+  DiDjango,
+  DiGit,
+} from "react-icons/di";
+
+import {
+  SiTailwindcss,
+  SiBootstrap,
+  SiSqlite,
+  SiMongodb,
+  SiFigma,
+  SiCanva,
+  SiMicrosoftoffice,
+} from "react-icons/si";
+
+import { FaJava, FaGithub } from "react-icons/fa";
+
 import {
   Section,
   SectionDivider,
@@ -19,26 +38,48 @@ import {
 const Technologies = () => (
   <Section id="Technologies">
     <SectionDivider />
-    <SectionTitle>Tecnologias</SectionTitle>
+    <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked with a range a technologies in the web development world.
+      I've worked with a range of technologies in the web development world.
     </SectionText>
     <List>
+
       <ListItem>
-        <DiReact size="3rem" />
+        <div style={{ display: "flex", gap: "1rem" }}>
+          <DiPython size="3rem" />
+          <DiJavascript1 size="3rem" />
+          <FaJava size="3rem" />
+        </div>
         <ListContainer>
-          <ListTitle>Front-end</ListTitle>
+          <ListTitle>Languages</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            React.js
+            Started with C & Java <br />
+            Now focused on Python & JS
           </ListParagraph>
         </ListContainer>
       </ListItem>
 
       <ListItem>
-        <SiTailwindcss size="3rem" />
+        <div style={{ display: "flex", gap: "1rem" }}>
+          <DiReact size="3rem" />
+          <DiHtml5 size="3rem" />
+        </div>
         <ListContainer>
-          <ListTitle>CSS frameworks</ListTitle>
+          <ListTitle>Front-End</ListTitle>
+          <ListParagraph>
+            Build responsive UIs <br />
+            Experience with React.js
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+
+      <ListItem>
+        <div style={{ display: "flex", gap: "1rem" }}>
+          <SiTailwindcss size="3rem" />
+          <SiBootstrap size="3rem" />
+        </div>
+        <ListContainer>
+          <ListTitle>CSS Frameworks</ListTitle>
           <ListParagraph>
             Experience with <br />
             Tailwind CSS & Bootstrap
@@ -47,50 +88,47 @@ const Technologies = () => (
       </ListItem>
 
       <ListItem>
-        <DiZend size="3rem" />
+        <div style={{ display: "flex", gap: "1rem" }}>
+          <DiDjango size="3rem" />
+          <DiNodejs size="3rem" />
+        </div>
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
+          <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            tools like Figma
+            Proficient in Django <br />
+            Past experience in Node.js
           </ListParagraph>
         </ListContainer>
       </ListItem>
 
       <ListItem>
-        <FaNodeJs size="3rem" />
-        <ListContainer>
-          <ListTitle>Backend</ListTitle>
-          <ListParagraph>
-            Skilled in Node.js and
-            <br />
-            Express.js Development
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
-
-      <ListItem>
-        <DiDatabase size="3rem" />
+        <div style={{ display: "flex", gap: "1rem" }}>
+          <SiSqlite size="3rem" />
+          <SiMongodb size="3rem" />
+        </div>
         <ListContainer>
           <ListTitle>Database</ListTitle>
           <ListParagraph>
-            Proficient in MongoDB
-            <br />
-            Database Management
+            Use SQLite with Django <br />
+            Familiar with MongoDB
           </ListParagraph>
         </ListContainer>
       </ListItem>
 
       <ListItem>
-        <FaGithub size="3rem" />
+        <div style={{ display: "flex", gap: "1rem" }}>
+          <FaGithub size="3rem" />
+          <DiGit size="3rem" />
+        </div>
         <ListContainer>
           <ListTitle>Version Control</ListTitle>
           <ListParagraph>
-            Skilled in GitHub Version <br />
-            Control Management
+            Skilled in Git & GitHub <br />
+            For team and solo projects
           </ListParagraph>
         </ListContainer>
       </ListItem>
+
     </List>
   </Section>
 );

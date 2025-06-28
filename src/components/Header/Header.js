@@ -55,7 +55,7 @@ const Header = () => (
 
       <SocialIcons
         target="_blank"
-        href="https://www.instagram.com/muhdzaheermv/"
+        href="https://www.instagram.com/zaheermv/"
       >
         <AiFillInstagram size="3rem" />
       </SocialIcons>

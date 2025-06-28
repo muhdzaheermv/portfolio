@@ -64,12 +64,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        Hi there! I'm Muhammed Zaheer from Kerala, India. As a passionate
-        freelance frontend developer, I craft stunning, responsive websites
-        using React.js, Next.js, and style them with CSS, Tailwind CSS, and
-        Bootstrap. My expertise extends to building full-stack applications,
-        including e-commerce sites, leveraging the MERN stack. Let's collaborate
-        to bring your ideas to life!
+        Hi there! I'm Muhammed Zaheer from Kerala, India — a self-taught developer and BCA student at Calicut University. I began my journey with the MERN stack and now specialize in building full-stack applications using Python and Django. I also work with React.js, Tailwind, and Bootstrap to craft clean, responsive interfaces. Passionate about solving real-world problems through tech. Let’s build something impactful!
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

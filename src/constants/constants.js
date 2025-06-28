@@ -132,10 +132,11 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2019, text: "Started my journey, Learn C & JAVA" },
-  { year: 2020, text: "Begin HTML/CSS, do projects." },
-  { year: 2021, text: "Master JavaScript, make projects." },
-  { year: 2022, text: "Start MERN, do projects" },
-  { year: 2023, text: "Dive into React, build projects" },
-  { year: 2024, text: "Freelance React dev." },
+  { year: 2019, text: "Started with C & Java basics" },
+  { year: 2020, text: "Began HTML/CSS, built small projects" },
+  { year: 2021, text: "Mastered JavaScript, made mini-apps" },
+  { year: 2022, text: "Explored MERN stack, built apps" },
+  { year: 2023, text: "Learned React, Tailwind & Bootstrap" },
+  { year: 2024, text: "Switched to Django, backend focused" },
+  { year: 2025, text: "Freelance Django full-stack dev" },
 ];

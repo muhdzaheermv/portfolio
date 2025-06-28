@@ -16,9 +16,7 @@ const Hero = (props) => (
         I'm Muhammed Zaheer
       </SectionTitle>
       <SectionText>
-        I'm a freelance React dev passionate about crafting engaging user
-        experiences. I work with Tailwind CSS, Bootstrap, HTML, CSS, GitHub,
-        Next.js, and Figma. Let's collaborate and build something awesome!
+Self-taught developer since 2019 and BCA student at Calicut University. Started with the MERN stack, now focused on Python & Django. Passionate about solving real-world problems through tech. Always learning, building, and leveling up.
       </SectionText>
       {/* <Button
         onClick={() =>
