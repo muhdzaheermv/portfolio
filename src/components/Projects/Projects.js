@@ -22,12 +22,15 @@ import { projects } from "../../constants/constants";
 // Updated categories to match tags and handle filtering
 const categories = [
   "All",
+  "Django",
+  "Python",
+  "API",
   "React",
-  "HTML",
-  "CSS",
-  "JavaScript",
   "Tailwind CSS",
-  "Figma",
+  "Bootstrap",
+  "JavaScript",
+  "CSS",
+  "HTML",
 ];
 
 const Projects = () => {
@@ -104,8 +107,8 @@ const Projects = () => {
                 </TagList>
               </div>
               <UtilityList>
-                <ExternalLinks href={visit}>Code</ExternalLinks>
-                <ExternalLinks href={source}>Visit</ExternalLinks>
+                <ExternalLinks href={visit} target="_blank">Code</ExternalLinks>
+                <ExternalLinks href={source} target="_blank">Visit</ExternalLinks>
               </UtilityList>
             </BlogCard>
           )

@@ -16,6 +16,7 @@ import {
   SiMongodb,
   SiFigma,
   SiCanva,
+  SiC,
   SiMicrosoftoffice,
 } from "react-icons/si";
 
@@ -46,9 +47,10 @@ const Technologies = () => (
 
       <ListItem>
         <div style={{ display: "flex", gap: "1rem" }}>
+          <SiC size="3rem" />
           <DiPython size="3rem" />
-          <DiJavascript1 size="3rem" />
-          <FaJava size="3rem" />
+          {/* <DiJavascript1 size="3rem" />
+          <FaJava size="3rem" /> */}
         </div>
         <ListContainer>
           <ListTitle>Languages</ListTitle>
