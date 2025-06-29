@@ -1,6 +1,6 @@
 # 👨‍💻 Personal Portfolio using ReactJS
 
-![Homepage](./src/assets/images/pp2.png)
+![Homepage](./src/images/pp2.png)
 
 This is my **ReactJS-based personal portfolio website**, designed to showcase my work, skills, and contact information. It's fully responsive and built with reusable components, making it easy to scale and maintain as my portfolio grows.
 
