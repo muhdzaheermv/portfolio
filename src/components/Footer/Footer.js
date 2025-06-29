@@ -31,7 +31,7 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Innovting one project at a time</Slogan>
+          <Slogan>Self-taught developer building real-world solutions</Slogan>
         </CompanyContainer>
         <SocialContainer>
           <SocialIcons target="_blank" href="https://github.com/muhdzaheermv">
@@ -47,7 +47,7 @@ const Footer = () => {
 
           <SocialIcons
             target="_blank"
-            href="https://www.instagram.com/muhdzaheermv/"
+            href="https://www.instagram.com/zaheermv/"
           >
             <AiFillInstagram size="3rem" />
           </SocialIcons>

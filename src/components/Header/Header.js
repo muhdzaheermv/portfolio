@@ -30,6 +30,7 @@ const Header = () => (
         </a>
       </Link>
     </Div1>
+
     <Div2>
       <li>
         <NavLink href="#projects">Projects</NavLink>
@@ -38,25 +39,27 @@ const Header = () => (
         <NavLink href="#Technologies">Technologies</NavLink>
       </li>
       <li>
-        <NavLink href="#about">about</NavLink>
+        <NavLink href="#about">About</NavLink>
       </li>
+      
     </Div2>
+
+      <li>
+        <a href="/resume.pdf" download style={{ textDecoration: "none", color: "white" }}>
+          <NavLink as="span">Resume</NavLink>
+        </a>
+      </li>
     <Div3>
       <SocialIcons target="_blank" href="https://github.com/muhdzaheermv">
         <AiFillGithub size="3rem" />
       </SocialIcons>
-
       <SocialIcons
         target="_blank"
         href="https://www.linkedin.com/in/muhammed-zaheer-836132244/"
       >
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
-
-      <SocialIcons
-        target="_blank"
-        href="https://www.instagram.com/zaheermv/"
-      >
+      <SocialIcons target="_blank" href="https://www.instagram.com/zaheermv/">
         <AiFillInstagram size="3rem" />
       </SocialIcons>
     </Div3>
