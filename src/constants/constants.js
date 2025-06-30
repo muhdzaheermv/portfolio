@@ -148,8 +148,8 @@ export const projects = [
     description: "Humorous web app with a floating 'No' button that avoids clicks. Built using JavaScript DOM events and basic CSS animation for fun.",
     image: "/images/funnyapp.png",
     tags: ["HTML", "CSS", "JavaScript"],
-    source: "https://byzaheer.vercel.app/",
-    visit: "https://github.com/muhdzaheermv/funny-no-button",
+    source: "https://github.com/muhdzaheermv/can-we-meet-funny-app",
+    visit: "https://byzaheer.vercel.app/",
     id: 16,
   },
 ];
