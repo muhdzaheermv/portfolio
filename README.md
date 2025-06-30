@@ -6,7 +6,7 @@ This is my **ReactJS-based personal portfolio website**, designed to showcase my
 
 ## 🚀 Live Demo
 
-👉 [Live App](https://portfolio-lilac-eight-60.vercel.app/)
+👉 [Live App](https://reactjs-portfolio-website-zsat.vercel.app/)
 
 ## 🛠️ Tech Stack
 
