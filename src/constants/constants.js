@@ -4,8 +4,8 @@ export const projects = [
     description: "A Django-based e-voting system with roles for admin, election officers, presiding officers, and voters. Secure and scalable for campus elections.",
     image: "/images/votesphere.png",
     tags: ["Django", "Python", "Bootstrap", "HTML", "CSS", "JavaScript"],
-    source: "https://django-campus-voting.onrender.com/",
-    visit: "https://github.com/muhdzaheermv/votesphere",
+    visit: "https://django-campus-voting.onrender.com/",
+    source: "https://github.com/muhdzaheermv/django-campus-voting",
     id: 0,
   },
   {
@@ -13,8 +13,8 @@ export const projects = [
     description: "Responsive weather application using Django and OpenWeatherMap API to fetch real-time forecasts. Ideal for beginners learning API and backend integration.",
     image: "/images/weather.png",
     tags: ["Django", "Python", "API", "Bootstrap", "HTML", "CSS"],
-    source: "https://django-weather-app-vtgd.onrender.com/",
-    visit: "https://github.com/muhdzaheermv/django-weather-app",
+    visit: "https://django-weather-app-vtgd.onrender.com/",
+    source: "https://github.com/muhdzaheermv/django-weather-app",
     id: 1,
   },
   {
@@ -22,8 +22,8 @@ export const projects = [
     description: "A modern personal portfolio website built using ReactJS. Fully responsive, showcasing projects, skills, and contact information with smooth UI.",
     image: "/images/portfolio2.png",
     tags: ["React", "JavaScript", "CSS"],
-    source: "https://portfolio-lilac-eight-60.vercel.app/",
-    visit: "https://github.com/muhdzaheermv/portfolio-react",
+    visit: "https://reactjs-portfolio-website-zsat.vercel.app/",
+    source: "https://github.com/muhdzaheermv/reactjs-portfolio-website",
     id: 2,
   },
   {
@@ -31,8 +31,8 @@ export const projects = [
     description: "Fully responsive bank landing page built with React, Tailwind CSS, and Vite. Clean UI and fast load performance ideal for fintech showcases.",
     image: "/images/bank.png",
     tags: ["React", "Tailwind CSS", "Vite", "JavaScript"],
-    source: "https://github.com/muhdzaheermv/bank-landing-react-vite-tailwind",
     visit: "https://muhdzaheermv.github.io/bank-landing-react-vite-tailwind/",
+    source: "https://github.com/muhdzaheermv/bank-landing-react-vite-tailwind",
     id: 3,
   },
   {
@@ -40,8 +40,8 @@ export const projects = [
     description: "Responsive Nike-inspired eCommerce landing page built using React and Tailwind CSS. Great for learning layout structure and component design.",
     image: "/images/nike.png",
     tags: ["React", "Tailwind CSS", "JavaScript"],
-    source: "https://github.com/muhdzaheermv/nike-website-react-tailwind",
     visit: "https://nike-website-react-tailwind-sooty.vercel.app/",
+    source: "https://github.com/muhdzaheermv/nike-website-react-tailwind",
     id: 4,
   },
   {
@@ -49,8 +49,8 @@ export const projects = [
     description: "React-based electric vehicle landing page featuring smooth UI, responsive layout, and optimized design elements. Great for automotive startups.",
     image: "/images/ev.png",
     tags: ["React", "CSS", "JavaScript"],
-    source: "https://muhdzaheermv.github.io/ev-olution/",
     visit: "https://muhdzaheermv.github.io/ev-olution-car-landing-reactjs/",
+    source: "https://github.com/muhdzaheermv/ev-olution-car-landing-reactjs",
     id: 5,
   },
   {
@@ -58,8 +58,8 @@ export const projects = [
     description: "A fully responsive restaurant website built with ReactJS. Great UI layout showcasing menu, contact, and home sections with elegant transitions.",
     image: "/images/restaurant.png",
     tags: ["React", "JavaScript", "CSS"],
-    source: "https://github.com/muhdzaheermv/ev-olution-car-landing-reactjs",
-    visit: "https://muhdzaheermv.github.io/ev-olution-car-landing-reactjs/",
+    visit: "https://restaurent-react-website.vercel.app/",
+    source: "https://github.com/muhdzaheermv/restaurant-react-website",
     id: 6,
   },
   {
@@ -67,8 +67,8 @@ export const projects = [
     description: "ReactJS-based movie search app using external API. Explore trending titles, search bar functionality, and component-based architecture for learning.",
     image: "/images/movie.png",
     tags: ["React", "JavaScript", "CSS", "API"],
-    source: "https://github.com/muhdzaheermv/movie-app",
     visit: "https://movie-app-beryl-six-33.vercel.app/",
+    source: "https://github.com/muhdzaheermv/movie-app",
     id: 7,
   },
   {
@@ -76,8 +76,8 @@ export const projects = [
     description: "A responsive landing page UI built using ReactJS and inspired by GPT-3. Features animation, structured layout, and modern styling for practice.",
     image: "/images/gpt.png",
     tags: ["React", "CSS", "JavaScript"],
-    source: "https://github.com/muhdzaheermv/react-gpt3-landing-page",
     visit: "https://muhdzaheermv.github.io/react-gpt3-landing-page/",
+    source: "https://github.com/muhdzaheermv/react-gpt3-landing-page",
     id: 8,
   },
   {
@@ -85,8 +85,8 @@ export const projects = [
     description: "Responsive landing page for a YouTube thumbnail agency built using HTML, CSS, and JavaScript. Clean layout with attention-grabbing call to action.",
     image: "/images/webzycle.png",
     tags: ["HTML", "CSS", "JavaScript"],
-    source: "https://webzycle.vercel.app/",
-    visit: "https://github.com/muhdzaheermv/webzycle",
+    visit: "https://webzycle.vercel.app/",
+    source: "https://github.com/muhdzaheermv/webzycle",
     id: 9,
   },
   {
@@ -94,8 +94,8 @@ export const projects = [
     description: "A static personal portfolio website showcasing skills, contact info, and project previews. Built using HTML, CSS, and JavaScript for practice.",
     image: "/images/portfolio1.png",
     tags: ["HTML", "CSS", "JavaScript"],
-    source: "https://personal-portfolio-gules-theta.vercel.app/",
-    visit: "https://github.com/muhdzaheermv/personal-portfolio-html-css-js",
+    visit: "https://personal-portfolio-gules-theta.vercel.app/",
+    source: "https://github.com/muhdzaheermv/personal-portfolio",
     id: 10,
   },
   {
@@ -103,8 +103,8 @@ export const projects = [
     description: "A static clone of YouTube homepage using HTML and CSS. Practicing layout replication, spacing, and typography without interactivity.",
     image: "/images/youtube.png",
     tags: ["HTML", "CSS"],
-    source: "https://youtube-clone-html-css-rho.vercel.app/",
-    visit: "https://github.com/muhdzaheermv/youtube-clone-html-css",
+    visit: "https://youtube-clone-html-css-rho.vercel.app/",
+    source: "https://github.com/muhdzaheermv/youtube-clone-html-css",
     id: 11,
   },
   {
@@ -112,8 +112,8 @@ export const projects = [
     description: "A static clone of Spotify’s homepage layout using HTML and CSS. Focused on flexbox layouts and design fundamentals. Not responsive.",
     image: "/images/spotify.png",
     tags: ["HTML", "CSS"],
-    source: "https://spotify-clone-html-css-eta.vercel.app/",
-    visit: "https://github.com/muhdzaheermv/spotify-clone-html-css",
+    visit: "https://spotify-clone-html-css-eta.vercel.app/",
+    source: "https://github.com/muhdzaheermv/spotify-clone-html-css",
     id: 12,
   },
   {
@@ -121,8 +121,8 @@ export const projects = [
     description: "A basic calculator built with HTML, CSS, and JavaScript. Supports simple arithmetic operations with a clean and intuitive interface.",
     image: "/images/calculator.png",
     tags: ["HTML", "CSS", "JavaScript"],
-    source: "https://calculator-mu-opal-13.vercel.app/",
-    visit: "https://github.com/muhdzaheermv/calculator",
+    visit: "https://calculator-mu-opal-13.vercel.app/",
+    source: "https://github.com/muhdzaheermv/calculator",
     id: 13,
   },
   {
@@ -130,8 +130,8 @@ export const projects = [
     description: "Classic rock-paper-scissors game with basic JavaScript logic. Play against the computer with score tracking and animated results.",
     image: "/images/rps.png",
     tags: ["HTML", "CSS", "JavaScript"],
-    source: "https://rock-paper-scissors-nine-lemon.vercel.app/",
-    visit: "https://github.com/muhdzaheermv/rock-paper-scissors",
+    visit: "https://rock-paper-scissors-nine-lemon.vercel.app/",
+    source: "https://github.com/muhdzaheermv/rock-paper-scissors",
     id: 14,
   },
   {
@@ -139,8 +139,8 @@ export const projects = [
     description: "Beginner ReactJS app that lists people’s birthdays. Useful for learning useState and props. Simple UI and component structure.",
     image: "/images/birthday.png",
     tags: ["React", "JavaScript", "CSS"],
-    source: "https://birthday-reminder-reactjs-app.vercel.app/",
-    visit: "https://github.com/muhdzaheermv/birthday-reminder",
+    visit: "https://birthday-reminder-reactjs-app.vercel.app/",
+    source: "https://github.com/muhdzaheermv/birthday-reminder",
     id: 15,
   },
   {
@@ -148,11 +148,12 @@ export const projects = [
     description: "Humorous web app with a floating 'No' button that avoids clicks. Built using JavaScript DOM events and basic CSS animation for fun.",
     image: "/images/funnyapp.png",
     tags: ["HTML", "CSS", "JavaScript"],
-    source: "https://github.com/muhdzaheermv/can-we-meet-funny-app",
     visit: "https://byzaheer.vercel.app/",
+    source: "https://github.com/muhdzaheermv/can-we-meet-funny-app",
     id: 16,
   },
 ];
+
 
 export const TimeLineData = [
   { year: 2019, text: "Started with C & Java basics" },
