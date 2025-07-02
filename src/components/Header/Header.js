@@ -41,14 +41,15 @@ const Header = () => (
       <li>
         <NavLink href="#about">About</NavLink>
       </li>
-      
-    </Div2>
-
       <li>
         <a href="/resume.pdf" download style={{ textDecoration: "none", color: "white" }}>
           <NavLink as="span">Resume</NavLink>
         </a>
       </li>
+      
+    </Div2>
+
+      
     <Div3>
       <SocialIcons target="_blank" href="https://github.com/muhdzaheermv">
         <AiFillGithub size="3rem" />
