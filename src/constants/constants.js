@@ -22,7 +22,7 @@ export const projects = [
     description: "A modern personal portfolio website built using ReactJS. Fully responsive, showcasing projects, skills, and contact information with smooth UI.",
     image: "/images/portfolio2.png",
     tags: ["React", "JavaScript", "CSS"],
-    visit: "https://reactjs-portfolio-website-zsat.vercel.app/",
+    visit: "https://zaheermv.vercel.app/",
     source: "https://github.com/muhdzaheermv/reactjs-portfolio-website",
     id: 2,
   },
