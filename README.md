@@ -6,7 +6,7 @@ This is my **ReactJS-based personal portfolio website**, designed to showcase my
 
 ## 🚀 Live Demo
 
-👉 [Live App](https://reactjs-portfolio-website-zsat.vercel.app/)
+👉 [Live App](https://zaheermv.vercel.app/)
 
 ## 🛠️ Tech Stack
 
